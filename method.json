@@ -1,1 +1,77 @@
++----------[RMX]---------+
+========METHOD [1]=======
+===========[URL]===========
+https://b-graph.facebook.com/auth/login
+===========[JSON]==========
+{
+  "method": "POST",
+  "url": "https://b-graph.facebook.com/auth/login",
+  headers : {
+    "Host": "b-graph.facebook.com",
+    "User-Agent": "Dalvik/2.1.0 Linux; U; Android 11; CLT-L09 Build/RP1A.788793410) [FBAN/FB4A;FBAV/368.0.0.24.108;FBBV/371897983;FBDM/{density=2.0,width=720,height=1456};FBLC/en_US;FBCR/LIDL Connect;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/CLT-L09;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Authorization": "OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32",
+    "X-FB-Friendly-Name": "authenticate",
+    "X-FB-Connection-Type": "unknown",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "X-FB-HTTP-Engine": "Liger"
+  },
+  data : {
+    "adid": "30c5EbcB78e1FB67",
+    "format": "json",
+    "device_id": "efba8c0d-53d9-47d6-b761-ccf7d523bd30",
+    "email": "01985745523",
+    "password": "85745523",
+    "generate_analytics_claims": "1",
+    "credentials_type": "password",
+    "source": "login",
+    "error_detail_type": "button_with_disabled",
+    "enroll_misauth": "false",
+    "generate_session_cookies": "1",
+    "generate_machine_id": "1",
+    "fb_api_req_friendly_name": "authenticate"
+  }
+}
+--------------------------
 
+========METHOD [2]=======
+===========[URL]===========
+https://b-graph.facebook.com/auth/login
+===========[JSON]==========
+{
+  "method": "POST",
+  "url": "https://b-graph.facebook.com/auth/login",
+  headers : {
+    "Host": "b-graph.facebook.com",
+    "User-Agent": "Dalvik/2.1.0 Linux; U; Android 5; Huawei P20 Pro Build/RP1A.426676579) [FBAN/FB4A;FBAV/368.0.0.24.108;FBBV/371897983;FBDM/{density=2.0,width=720,height=1456};FBLC/en_US;FBCR/Airtel;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/Huawei P20 Pro;FBSV/9;FBOP/19;FBCA/arm64-v8a:;]",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Authorization": "OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32",
+    "X-FB-Friendly-Name": "authenticate",
+    "X-FB-Connection-Type": "unknown",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "X-FB-HTTP-Engine": "Liger"
+  },
+  data: {
+    "adid": "30c5EbcB78e1FB67",
+    "format": "json",
+    "device_id": "efba8c0d-53d9-47d6-b761-ccf7d523bd30",
+    "email": "01985745523",
+    "password": "85745523",
+    "generate_analytics_claims": "1",
+    "credentials_type": "password",
+    "source": "login",
+    "error_detail_type": "button_with_disabled",
+    "enroll_misauth": "false",
+    "generate_session_cookies": "1",
+    "generate_machine_id": "1",
+    "fb_api_req_friendly_name": "authenticate"
+  }
+}
+--------------------------
+REASON - BEHAVIOR 
+--------------------------
+    
